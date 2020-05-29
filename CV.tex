@@ -21,11 +21,18 @@
 %% PREAMBLE.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\usepackage{xstring}
+\usepackage{catchfile}
+\CatchFileDef{\HEAD}{.git/refs/heads/master}{}
+\newcommand{\gitrevision}{%
+  \StrLeft{\HEAD}{7}%
+}
+
 % CV Info (to be customized).
 \newcommand{\CVAuthor}{Daniel Oskarsson}
 \newcommand{\CVTitle}{Daniel Oskarsson's resume}
-\newcommand{\CVNote}{Resume created {\today} using {\XeLaTeX}}
-\newcommand{\CVWebpage}{http://linkedin.com/in/danieloskarsson}
+\newcommand{\CVNote}{Resume created {\today} from {\gitrevision} using {\XeLaTeX}}
+\newcommand{\CVWebpage}{https://github.com/danieloskarsson}
 
 % PDF settings and properties.
 \hypersetup{
@@ -62,7 +69,7 @@ breaklinks}
 
 \begin{SubTitle}
 \href{https://www.google.com/maps/place/VEKABACKEN,+521+94+Falk%C3%B6ping/@58.3358392,13.7009896,12z/data=!4m5!3m4!1s0x465ae469d63424bf:0xb367c493ed2f945c!8m2!3d58.2692871!4d13.5626312}
-{Sätuna Vekabaken, 521 94 Falköping}
+{Sätuna Vekabacken, 521 94 Falköping}
 \par
 \href{mailto:daniel.oskarsson@gmail.com}
 {daniel.oskarsson@gmail.com}
@@ -334,7 +341,7 @@ Entrepreneur, Developer \& Designer
 \DatestampYMD{2015}{09}{17} --
 \begin{Detail}
 \SubBulletItem
-Self-owned business (aktiebolag) working with a wide variety of clients including companies\\in Science Park Skövde such as Silverspin and companies in Stockholm such as Bontouch and SJ. 
+Self-owned business (aktiebolag) working with a wide variety of clients including companies\\in Science Park Skövde and companies in Stockholm such as Bontouch and SJ. 
 \end{Detail}
 
 \newpage
@@ -412,7 +419,7 @@ Servicedesk technician, Mariestad
 
 \begin{Detail}
 \SubBulletItem
-Provided software and hardware support on fixed and mobile clients for companies\\ such as Telia, Länsförsäkringar, SJ and others. Learned a lot on how to communicate\\ and best help people with different prerequisites in a varity of different situations.
+Provided software and hardware support on fixed and mobile clients for companies\\ such as Telia, Länsförsäkringar, SJ and others. Learned a lot on how to communicate\\ and best help people with different prerequisites in a variety of different situations.
 \end{Detail}
 
 
@@ -480,7 +487,7 @@ Traveling, sports, entrepreneurship, education, product development
 {PDF:References}
 
 \BulletItem
-\textbf{Rereferences given upon request}
+\textbf{References given upon request}
 
 \end{Body}
 

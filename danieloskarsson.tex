@@ -24,7 +24,7 @@
 \usepackage{verbatim}
 \usepackage{xstring}
 \usepackage{catchfile}
-\CatchFileDef{\HEAD}{.git/refs/heads/master}{}
+\CatchFileDef{\HEAD}{.git/refs/heads/svenska}{}
 \newcommand{\gitrevision}{%
   \StrLeft{\HEAD}{7}%
 }
@@ -32,7 +32,7 @@
 % CV Info (to be customized).
 \newcommand{\CVAuthor}{Daniel Oskarsson}
 \newcommand{\CVTitle}{Daniel Oskarsson's resume}
-\newcommand{\CVNote}{Resume created {\today} from {\gitrevision} using {\XeLaTeX}}
+\newcommand{\CVNote}{CV:t skapades {\today} från {\gitrevision} med {\XeLaTeX}}
 \newcommand{\CVWebpage}{https://github.com/danieloskarsson}
 
 % PDF settings and properties.
@@ -75,7 +75,7 @@ breaklinks}
 \href{mailto:daniel.oskarsson@gmail.com}
 {daniel.oskarsson@gmail.com}
 \,\SubBulletSymbol\,
-+46\,(0)\,705-904720
+0705-904720
 \\
 \href{\CVWebpage}
 {\url{\CVWebpage}}
@@ -88,42 +88,42 @@ breaklinks}
 %%%%%%%%%%%%
 
 \Section
-{Skills}
+{Kunskaper}
 {Skills}
 {PDF:Skills}
 
 \Entry
-I am \emph{well} versed in a number of programming languages (e.g. kotlin/java8+, swift/objective-c, typescript/javascript, html5/css3 and know some c/c++/golang, python, and c\#), I know frameworks and techniques such as java enterprise, jpa/jsp/ejb, spring boot, as well as a number of programs (e.g. bash/zsh, git, visual studio/code, intellij, android studio and xcode). I am also comfortable doing public speaking, reasonably skilled in doing interviews and good at coordinating activities, projects and employees. I see practices such as agile development and writing tests as given.
+Som profesionell utvecklare har jag arbetat med en mängd olika programmeringsspråk, exempelvis kotlin/java8+, swift/objective-c, html5/css3, typescript/javascript och c\#. På hobbynnivå har jag också använt mig av c/c++/golang, python, m.fl. Jag har stor kunskap om mobilutveckling för Android och iOS samt goda kunskaper i applikationsutveckling med Java (jpa/jsp/ejb) och Spring Boot. Jag ser praktiker som agil utvecklingsmetodik och att skriva tester som en självklarhet.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% WORK EXPERIENCE %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \Section
-{Work Experience}
+{Anställningar}
 {Work Experience}
 {PDF:OtherWorkExperience}
 
 \Entry
 \href{http://his.se}
-{\textbf{University of Skövde}}, Skövde
+{\textbf{Högskolan i Skövde}}, Skövde
 
 \Gap
 \BulletItem
-Lecturer (part-time)
+Lärare (deltid)
 \hfill
 \DatestampYMD{2020}{02}{01} --
 \newline
-School of Informatics
+Institutionen för informationsteknologi
 \begin{Detail}
 \SubBulletItem
-Mobile application programming: course development, lecturing, and tutoring
+Mobil applikationsutveckling: kursutveckling, föreläsningar och handledningar
 \end{Detail}
 
 \begin{comment}
 \Gap
 \BulletItem
-Student mentor (part-time)
+Studentmentor (deltid)
 \hfill
 \DatestampYMD{2018}{09}{01} --
 \DatestampYMD{2019}{07}{01}
@@ -131,18 +131,18 @@ Student mentor (part-time)
 Avdelningen för utbildnings- och studentstöd
 \begin{Detail}
 \SubBulletItem
-Specifically requested by a student as their mentor
+Särskilt efterfrågad av student som mentor
 \end{Detail}
 
 \Gap
 \BulletItem
-Supervisor (part-time)
+Handledare (deltid)
 \hfill
 \DatestampYMD{2006}{01}{01} --
 \DatestampYMD{2006}{06}{01}
 \begin{Detail}
 \SubBulletItem
-Project development and tutoring in Software Engineering
+Vidareutveckling, handledning och rättning av projekt i mjukvarutveckling
 \end{Detail}
 \end{comment}
 
@@ -153,12 +153,12 @@ Project development and tutoring in Software Engineering
 
 \Gap
 \BulletItem
-Entrepreneur, Developer, Designer, \& Product developer
+Entreprenör, Utvecklare, Designer, \& Produktutvecklare
 \hfill
 \DatestampYMD{2020}{01}{01} --
 \begin{Detail}
 \SubBulletItem
-Co-owned business (aktiebolag) for developing new product ideas. 
+Delägare i aktiebolag vars syfte är att verka som en inkubator för egna ideer. 
 \end{Detail}
 
 \BigGap
@@ -168,17 +168,17 @@ Co-owned business (aktiebolag) for developing new product ideas.
 
 \Gap
 \BulletItem
-Entrepreneur, Developer \& Designer
+Entreprenör, Utvecklare \& Designer
 \hfill
 \DatestampYMD{2015}{09}{17} --
 \begin{Detail}
 \SubBulletItem
-Self-owned business (aktiebolag) working with a wide variety of clients including companies\\in Science Park Skövde and companies in Stockholm such as Bontouch and SJ. 
+Eget aktiebolag inom vilket jag jobbat med en mängd olika kunder i Science Park Skövde och företag i Stockholm som exempelvis Bontouch och SJ.
 \end{Detail}
 
 \BigGap
 \Entry
-\textbf{Saltside}, Gothenburg
+\textbf{Saltside}, Göteborg
 
 \Gap
 \BulletItem
@@ -189,12 +189,12 @@ Engineering Manager
 
 \begin{Detail}
 \SubBulletItem
-Manager of a mobile development team of Android and iOS developers in 2014 (of which\\many I recruited) and for a larger cross-functional development team in 2015. At Saltside I\\also developed the working process largely based on knowledge sharing and team autonomy.
+Chef för ett litet team med Android och iOS-utvecklare (av vilket många jag rekryterade) under 2014 och för ett större ''cross-functional'' team 2015. På Saltsida tog jag även fram den agila utvecklingsprocess som användes, en process centrerad kring kunskapsspridning och autonoma team baserad på Scrum och Kanban.
 \end{Detail}
 
 \BigGap
 \Entry
-\textbf{Duego}, Gothenburg
+\textbf{Duego}, Göteborg
 
 \Gap
 \BulletItem
@@ -205,23 +205,23 @@ Lead Mobile Developer
 
 \begin{Detail}
 \SubBulletItem
-Responsible for the technical implementation of the company mobile application.
+Ansvarig för den tekniska implementationen av företagets mobilapplikation.
 \end{Detail}
 
 \BigGap
 \Entry
-\textbf{Knowit}, Gothenburg
+\textbf{Knowit}, Göteborg
 
 \Gap
 \BulletItem
-Systems development consultant
+Systemutvecklingskonsult
 \hfill
 \DatestampYMD{2010}{10}{01} --
 \DatestampYMD{2012}{06}{01}
 
 \begin{Detail}
 \SubBulletItem
-IT-consultant working on site at customers such as Stendahls, AstraZeneca, Göteborgs stad,\\and Cryptzone. Working as a consultant gave me skills to communicate with a large set of\\stakeholders with various skills. As a employee I often carried out hiring interviews.
+Som konsult på Knowit arbetade jag på plats i Göteborg hos kunder som Stendahls, AstraZeneca, Göteborgs stad och Cryptzone. Att arbeta som konsult gjorde att jag utvecklade skickligheter gällande kommunikation med intressenter med olika kunskaper. Som anställd deltog jag ofta i och utförde egna anställningsintervjuer.
 \end{Detail}
 
 \BigGap
@@ -230,26 +230,26 @@ IT-consultant working on site at customers such as Stendahls, AstraZeneca, Göte
 
 \Gap
 \BulletItem
-Solution architect, Gothenburg
+Lösningsarkitekt, Göteborg
 \hfill
 \DatestampYMD{2006}{03}{01} --
 \DatestampYMD{2010}{10}{01}
 
 \begin{Detail}
 \SubBulletItem
-Worked on lots of projects within TeliaSonera such as the introduction of the iPhone,\\collaboration with Spotify, Mina Sidor, Digital TV on Telia.se, Surfport, and Halebop.\\As technically responsible for a team of developers I learned how to coach other\\developers to work towards shared goals.
+Arbetade med mängder av olika typer av projekt på telia.se och halebop.se. Några exempel är introduktionen av iPhone 3G, bundling av Spotify med bredbandsabonnemang, Mina sidor och styrning av inspelningar i Telia Digital TV via Mina sidor. Som tekniskt ansvarig för ett team med utvecklare lärde jag mig att coacha ett team med oliksinnade utvecklare att arbeta och nå gemensamma mål.
 \end{Detail}
 
 \Gap
 \BulletItem
-Servicedesk technician, Mariestad
+Servicedesk-tekniker, Mariestad
 \hfill
 \DatestampYMD{2000}{12}{01} --
 \DatestampYMD{2006}{03}{01}
 
 \begin{Detail}
 \SubBulletItem
-Provided software and hardware support on fixed and mobile clients for companies\\ such as Telia, Länsförsäkringar, SJ and others. Learned a lot on how to communicate\\ and best help people with different prerequisites in a variety of different situations.
+Tillhandahöll telefonsupport för hård- och mjukvara på stationära och mobila klienter till företag som Telia, Länsförsäkringar, SJ m.fl. Lärde mig mycket om kommunikation med människor med olika förkunskaper i en mängd olika situationer.
 \end{Detail}
 
 
@@ -258,17 +258,17 @@ Provided software and hardware support on fixed and mobile clients for companies
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \Section
-{Certifications}
+{Certifieringar}
 {Licenses \& Certifications}
 {PDF:LicensesAndCertifications}
 
 \BulletItem
-Professional Scrum Product Owner\newline Scrum.org
+Professional Scrum Product Owner (genomförs i skrivande stund)
 \hfill
 \DatestampYM{2020}{06}
 
 \BulletItem
-Certified ScrumMaster\newline ScrumAlliance
+Certified ScrumMaster
 \hfill
 \DatestampYM{2011}{04}
 
@@ -279,7 +279,7 @@ Certified ScrumMaster\newline ScrumAlliance
 %%%%%%%%%%%%%%%%%%
 
 \Section
-{Publications}
+{Publikationer}
 {Publications}
 {PDF:Publications}
 
@@ -298,7 +298,11 @@ Certified ScrumMaster\newline ScrumAlliance
 {\underline{D.~Oskarsson}
 ``JavaScript Object Notation Definition (JSOND)''\\
 \textit{Internet Engineering Task Force (IETF)}, \DatestampYM{2015}{03}.}
-
+\begin{Detail}
+\Item
+Definitionsspråk för kommunikation av JSON-text
+\end{Detail}
+  
 \endgroup
 
 %%%%%%%%%%%%%%%
@@ -306,25 +310,25 @@ Certified ScrumMaster\newline ScrumAlliance
 %%%%%%%%%%%%%%%
 
 \Section
-{Education}
+{Utbildningar}
 {Education}
 {PDF:Education}
 
 \Entry
 \href{http://www.example.com/my-university}
-{\textbf{University of Skövde}},
+{\textbf{Högskolan i Skövde}},
 Skövde
 
 \Gap
 \BulletItem
-B.S.
+Kandidat:
 \href{http://www.his.se/uxd}
 {User Experience Design}
 \hfill
 \DatestampYMD{2017}{08}{01} --
 %\DatestampYMD{2020}{07}{01}
 \newline
-School of Informatics
+Institutionen för informationsteknologi
 
 
 % \Gap
@@ -338,22 +342,22 @@ School of Informatics
 
 \Gap
 \BulletItem
-M.S. in
+Magister:
 \href{http://his.se/dvp}
-{Computer Science}
+{Datavetenskap}
 \hfill
 \DatestampYMD{2002}{08}{01} --
 \DatestampYMD{2006}{06}{31}
 \begin{Detail}
 \SubBulletItem
-Thesis:
+Uppsats:
 \href{http://urn.kb.se/resolve?urn=urn:nbn:se:his:diva-13461}
 {Assessing the introduction of aspect-orientation in a real-world}
 \SubBulletItem
-Adviser:
+Handledare:
 Henrik Grimm, Google
 \SubBulletItem
-Examiner:
+Examinator:
 Mikael Johanesson
 \end{Detail}
     
@@ -365,25 +369,24 @@ Mikael Johanesson
 \Gap
 \BulletItem
 \href{https://cs.cityu.edu.hk/courses/exchange.html}
-{Computer Science}
+{Datavetenskap}
 \hfill
 \DatestampYMD{2019}{09}{01} --
 \DatestampYMD{2019}{12}{23}
 \begin{Detail}
 \SubBulletItem
-Semester abroad as part of the User Experience Design program.\\Returned early to Sweden due to the social unrest ad finalized the studies from home.
-\end{Detail}
+Studier utomlands som en del av programmet User Experience Design.\\Reste hem en månad tidigare än planerat då demonstranter intog universitetet i november. Färdigställde studierna från Sverige.\end{Detail}
 
 \BigGap
 \Entry
 \href{https://www.law.lu.se/}
-{\textbf{Lund University}},
+{\textbf{Lund Universitet}},
 Lund
 
 \Gap
 \BulletItem
 \href{https://www.lu.se/lubas/i-uoh-lu-JURF11}
-{Introduction to Swedish law}
+{Introduktion till Svensk lag}
 \hfill
 \DatestampYMD{2019}{06}{01} --
 \DatestampYMD{2019}{08}{31}
@@ -393,8 +396,7 @@ Lund
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \Section
-{Awards \&\newline
-Scholarships}
+{Stipendium}
 {Awards \& Scholarships}
 {PDF:AwardsAndScholarships}
 
@@ -414,44 +416,34 @@ högskolans resestipendium på 25 000 kronor.''
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \Section
-{Professional Affiliations\newline
-\& Activities}
+{Aktiviteter}
 {Professional Affiliations \& Activities}
 {PDF:ProfessionalAffiliationsActivities}
 
 \Entry
-\textbf{IIT leadership council}, School of Informatics (IIT), University of Skövde
+\textbf{IIT ledningsråd}, Institutionen för informationsteknologi, Högskolan i Skövde
 
 \Gap
 \BulletItem
-Student representative
+Studentrepresentant
 \hfill
 \DatestampYMD{2017}{11}{24} -- \DatestampYMD{2019}{06}{01}
 \\
 \Entry
-\textbf{CocoaHeads Göteborg}, Gothenburg
+\textbf{CocoaHeads Göteborg}, Göteborg
 
 \Gap
 \BulletItem
-Organizer arranging recurrent meetups at various locations
+Arrangerade återkommande träffar för iOS-utvecklare på olika platser i Göteborg
 \hfill
 \DatestampYMD{2011}{03}{10} -- \DatestampYMD{2014}{06}{01}
-
-%%%%%%%%%%%%%%%%%%%%%%%
-%% CAMPUS ACTIVITIES %%
-%%%%%%%%%%%%%%%%%%%%%%%
-
-\Section
-{Campus Activities}
-{Campus Activities}
-{PDF:CampusActivities}
-
+\\
 \Entry
 \textbf{Datasektionen vid Högskolan i Skövde (DHISK)}, Skövde
 
 \Gap
 \BulletItem
-Member of the board
+Styrelsemedlem
 \hfill
 \DatestampYMD{2002}{09}{01} -- \DatestampYMD{2006}{06}{01}
 
@@ -460,40 +452,39 @@ Member of the board
 %%%%%%%%%%%%%%%
 
 \Section
-{Languages}
+{Språk}
 {Languages}
 {PDF:Languages}
 
 \BulletItem
-Swedish: Native language.
+Svenska: Modersmål
 
 \Gap
 \BulletItem
-English: Fluent (speaking, reading, writing).
+Engelska: Flytande
 
 %%%%%%%%%%%%%%%
 %% INTERESTS %%
 %%%%%%%%%%%%%%%
 
 \Section
-{Interests}
+{Intressen}
 {Interests}
 {PDF:Interests}
 
 \Entry
-Traveling, sports, entrepreneurship, education, product development
+Resor, sport, entreprenörskap, utbildning, produktutveckling
 
 %%%%%%%%%%%%%%%%
 %% REFERENCES %%
 %%%%%%%%%%%%%%%%
 
 \Section
-{References}
+{Referenser}
 {References}
 {PDF:References}
 
-\BulletItem
-\textbf{References given upon request}
+\textbf{Referenser ges vid begäran}
 
 \end{Body}
 
